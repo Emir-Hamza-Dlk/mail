@@ -3,26 +3,32 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffffc4;
+    background-color: #ffffffd8;
     font-family: Arial, sans-serif;
 }
 .container {
-    background: rgb(72, 157, 243);
+    background: rgb(87, 164, 240);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 .code-box {
     background: #fafafa;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+
 input {
     padding: 10px;
     width: 80%;
     margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    outline: none;
 }
